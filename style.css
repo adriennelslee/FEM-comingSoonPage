@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    text-align: center;
+    margin: 8vh;
+}
+
+.logoPing{
+    padding: 20px;
+}
+
+.lineOne{
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+}
+
+.lineTwo{
+    font-weight: 600;
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 5px;
+}
+
+strong{
+    font-weight: 700;
+    color: black;
+}
+
+.textInput{
+    border: 1px solid lightgray;
+    color: gray;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.buttonNotify{
+    background-color: rgb(53, 138, 236);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: transparent;
+}
+
+.imgDash{
+    padding-top: 10px;
+}
+
+@media only screen (and max-width: 375px){
+    font-size: 12px;
+}
